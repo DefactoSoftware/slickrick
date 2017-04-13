@@ -1,0 +1,30 @@
+$spacing-horizontal: 30px;
+$spacing-vertical: 30px;
+$content-width: 1180px;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  background: #fff;
+  padding: $spacing-horizontal $spacing-vertical;
+}
+
+main {
+  margin: 0 auto;
+  padding: $spacing-horizontal $spacing-vertical;
+  width: $content-width;
+}
+
+section {
+  background: #fff;
+  padding: $spacing-horizontal $spacing-vertical;
+  margin-bottom: $spacing-vertical;
+}
